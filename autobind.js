@@ -5,7 +5,7 @@ module.exports = function (self) {
 
 function autobind(self, proto) {
 	for(var key of Object.getOwnPropertyNames( proto )){
-		if(key !== 'constructor') self[key] = self[key].bind(self);
+		if (typeof(this[key] === 'function' && key !== 'constructor') self[key] = self[key].bind(self);
 	}
 	var parentProto = Object.getPrototypeOf(proto);
 	if (parentProto !== Object.prototype){
