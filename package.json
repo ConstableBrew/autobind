@@ -1,6 +1,6 @@
 {
   "name": "es6-autobind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fixes class methods so that they can be extracted with out worrying about breaking the connection to \"this\".",
   "main": "autobind.js",
   "scripts": {
@@ -12,11 +12,12 @@
   },
   "keywords": [
     "autobind",
+    "class",
     "es6",
     "javascript"
   ],
   "author": "Michael Brewer <constablebrew@gmail.com>",
-  "license": "MIT",
+  "license": "Public Domain",
   "bugs": {
     "url": "https://github.com/ConstableBrew/autobind/issues"
   },
